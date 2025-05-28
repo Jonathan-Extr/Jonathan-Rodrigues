@@ -1,0 +1,188 @@
+> Jonathan:
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Portfólio profissional de Jonathan Henrique, desenvolvedor web e designer. Criação de sites, sistemas e landing pages com design moderno e responsivo.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Jonathan Henrique">
+    <meta property="og:title" content="Extraordinário Designer - Portfólio">
+    <meta property="og:description"
+        content="Portfólio profissional de Jonathan Henrique, especialista em desenvolvimento web.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/capa.png">
+    <meta property="og:url" content="https://seuusuario.github.io/meusite/">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Jonathan Henrique | Desenvolvedor Web & Designer - Portfólio</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/homer.css">
+    <link rel="stylesheet" href="orcamento/orcamento.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">Extraordinário Designer</div>
+        <nav class="menu">
+            <a href="#home">Home</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#portfolio">Portfólio</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">Design Extraordinário para Ideias Incríveis</h1>
+            <p class="fade-in delay">Transformamos visões em experiências digitais de alto impacto.</p>
+            <a href="https://wa.me/5548992092840" target="_blank" class="btn-whatzap fa-brands fa-whatsapp">WhatsApp</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="section servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+            <div class="servicos-card">
+                <i class="fas fa-building icon"></i>
+                <h3>Sites Institucionais</h3>
+                <p>Criação de sites profissionais para empresas, marcas e organizações com identidade visual moderna e
+                    responsiva.</p>
+            </div>
+            <div class="servicos-card">
+                <i class="fas fa-shopping-cart icon"></i>
+                <h3>Lojas Virtuais</h3>
+                <p>Desenvolvimento de e-commerces completos com integração de pagamentos, gerenciamento de produtos e
+                    painel administrativo.</p>
+            </div>
+            <div class="servicos-card">
+                <i class="fas fa-laptop-code icon"></i>
+                <h3>Sistemas Web</h3>
+                <p>Criação de sistemas personalizados com dashboards, CRMs e plataformas online para empresas que
+                    precisam de soluções sob medida.</p>
+            </div>
+            <div class="servicos-card">
+                <i class="fas fa-bullhorn icon"></i>
+                <h3>Landing Pages</h3>
+                <p>Páginas otimizadas para conversão com foco em captação de leads, anúncios pagos ou apresentação de
+                    produtos e serviços.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre section">
+        <h2>Sobre Nós</h2>
+        <p>
+            Somos uma equipe apaixonada por design, inovação e experiência do usuário. Nosso compromisso é criar
+            soluções
+            visuais impactantes e funcionais, sempre buscando a perfeita harmonia entre estética e usabilidade.<br><br>
+            Com uma abordagem profissional e criativa, desenvolvemos projetos que transformam ideias em realidade,
+            garantindo que cada detalhe contribua para uma experiência única e envolvente.<br>
+            Independentemente do tamanho do projeto, estamos preparados para atender, oferecendo
+            sempre a melhor qualidade e dedicação.<br><br><strong>Cobrimos qualquer orçamento.</strong>
+        </p>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+        <h2>Portfólio</h2>
+        <p class="descricao-portfolio">Conheça alguns dos projetos desenvolvidos com foco em design, performance e
+            responsividade.</p>
+        <div class="portfolio-grid">
+            <a href="projeto-1/personal.html" target="_blank" class="portfolio-card">
+                <img src="img/personal.png" alt="Projeto Personal Trainer">
+                <div class="portfolio-info">
+                    <h3>Personal Trainer</h3>
+                    <p>Site fictício de personal trainer.</p>
+                </div>
+            </a>
+            <a href="projeto-2/restauranre.html" target="_blank" class="portfolio-card">
+                <img src="img/restaurante.png" alt="Projeto BellaCozinha">
+                <div class="portfolio-info">
+                    <h3>BellaCozinha</h3>
+                    <p>Site fictício de restaurante com menu interativo e animações suaves.</p>
+                </div>
+            </a>
+            <a href="projeto-3/clickstore.html" target="_blank" class="portfolio-card">
+                <img src="img/lojavirtual.png" alt="Projeto ClickStore">
+                <div class="portfolio-info">
+                    <h3>ClickStore</h3>
+                    <p>E-commerce com design elegante e menu hambúrguer responsivo.</p>
+                </div>
+            </a>
+            <a href="projeto-4/insight.html" target="_blank" class="portfolio-card">
+                <img src="img/dashboard.png" alt="Projeto Insight Dashboard">
+                <div class="portfolio-info">
+                    <h3>Dashboard</h3>
+                    <p>Interface gráfica que reúne e exibe informações de maneira visual e fácil de entender.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <main class="form-container">
+        <h3>Solicitar Orçamento</h3>
+        <form id="form-orcamento">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            <input type="tel" id="telefone" name="telefone" placeholder="Celular com WhatsApp" required>
+            <textarea id="descricao" name="descricao" placeholder="Descreva o serviço desejado" required></textarea>
+
+            <label>Como prefere receber a resposta?</label>
+            <div class="opcoes">
+                <label><input type="radio" name="resposta" value="email" required> E-mail</label>
+                <label><input type="radio" name="resposta" value="whatsapp" required> WhatsApp</label>
+            </div>
+
+            <button type="submit">Enviar Orçamento</button>
+            <p class="mensagem" id="mensagem-ok" style="display:none;">Obrigado! Sua solicitação foi enviada com
+                sucesso.</p>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <div class="marca">
+                <h3>Extraordinário <span>Designer</span></h3>
+                <p>Transformando ideias em experiências digitais.</p>
+            </div>
+
+            <div class="links">
+                <h4>Links rápidos</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="redes">
+                <h4>Redes Sociais</h4>
+                <div class="icones">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 Extraordinário Designer. Todos os direitos reservados.</p>
+        </div>
+        <p><a href="politica.html" target="_blank">Pólitica de Privacidade</a></p>
+        <p><a href="termodeuso.html" target="_blank">Termos de Uso</a></p>
+
+    </footer>
+
+    <script src="homer.js"></script>
+</body>
+
+</html>

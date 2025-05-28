@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Insight Premium</title>
+    <link rel="stylesheet" href="/projeto-4/insight.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Sidebar profissional -->
+    <aside class="sidebar">
+        <div class="user-info">
+            <h2>[SEU NOME]</h2>
+            <p>Administrador</p>
+        </div>
+        <nav class="menu-lateral">
+            <a href="#" class="ativo"><i class="fas fa-home"></i> Dashboard</a>
+            <a href="#"><i class="fas fa-chart-line"></i> Relatórios</a>
+            <a href="#"><i class="fas fa-cog"></i> Configurações</a>
+            <a href="#"><i class="fas fa-sign-out-alt"></i> Sair</a>
+        </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo">
+        <header class="header">
+            <div class="logo">Insight<span>Dash</span></div>
+            <div class="meta">
+                <div>Agentes: <strong>11</strong></div>
+                <div>Propostas: <strong>231</strong></div>
+                <div>Limite Global: <strong class="destaque">R$ 459.790</strong></div>
+            </div>
+            <div class="filtro">
+                <label>Data Relativa:</label>
+                <select>
+                    <option>Último</option>
+                    <option>Este mês</option>
+                    <option>Personalizado</option>
+                </select>
+            </div>
+        </header>
+
+        <main class="grid">
+            <section class="filtros">
+                <select>
+                    <option>Credenciado</option>
+                </select>
+                <select>
+                    <option>Agente</option>
+                </select>
+                <select>
+                    <option>Operador</option>
+                </select>
+            </section>
+
+            <section class="card"><canvas id="graficoStatus"></canvas></section>
+            <section class="card"><canvas id="graficoProduto"></canvas></section>
+            <section class="card"><canvas id="graficoScore"></canvas></section>
+            <section class="card"><canvas id="graficoLimite"></canvas></section>
+            <section class="card full"><canvas id="graficoPropostas"></canvas></section>
+        </main>
+    </div>
+
+    <!-- Font Awesome para ícones -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" crossorigin="anonymous"
+        crossorigin="anonymous"></script>
+    <script src="/projeto-4/ingight.js"></script>
+</body>
+
+</html>
