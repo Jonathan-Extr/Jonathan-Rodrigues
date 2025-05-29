@@ -15,12 +15,12 @@ document.getElementById("form-orcamento").addEventListener("submit", function (e
     mensagem += `📌 Preferência de contato: ${tipoResposta}`;
 
     if (tipoResposta === "whatsapp") {
-        const numero = "5548992092840"; // seu número com DDI
+        const numero = "5548991171998"; // seu número com DDI
         const url = ` https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
         window.open(url, "_blank");
     } else {
         const form = document.createElement("form");
-        form.action = "https://jonathanjoaodias@gmail.com"; // substitua pelo seu
+        form.action = "https://formsubmit.co/extraordinariodesignerrodrigue@gmail.com";
         form.method = "POST";
         form.style.display = "none";
 
