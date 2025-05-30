@@ -163,6 +163,22 @@ a {
     margin-top: 20px;
 }
 
+.voltar {
+    margin: 30px;
+    text-align: center;
+}
+
+.voltar a {
+    background-color: #00cc6e;
+    color: black;
+    pad: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.4s;
+    display: inline-block;
+    border-radius: 6px;
+}
+
 footer {
     background-color: #111;
     text-align: center;

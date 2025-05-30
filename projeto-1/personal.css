@@ -138,6 +138,22 @@ body {
     background-color: #00cc6e;
 }
 
+.voltar {
+    margin: 30px;
+    text-align: center;
+}
+
+.voltar a {
+    background-color: #00cc6e;
+    color: black;
+    pad: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.4s;
+    display: inline-block;
+    border-radius: 6px;
+}
+
 /* Rodapé */
 footer {
     background-color: #1e1e1e;

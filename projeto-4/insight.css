@@ -159,6 +159,7 @@ canvas {
     height: auto !important;
 }
 
+
 /* RESPONSIVO */
 @media (max-width: 768px) {
     .sidebar {
