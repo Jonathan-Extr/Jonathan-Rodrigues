@@ -1,5 +1,8 @@
 document.getElementById("form-orcamento").addEventListener("submit", function (e) {
     e.preventDefault();
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16717164630/JWmOCOi3988aENbgrqM-'
+    });
 
     const nome = document.getElementById("nome").value.trim();
     const email = document.getElementById("email").value.trim();
@@ -35,7 +38,10 @@ document.getElementById("form-orcamento").addEventListener("submit", function (e
     `;
 
         document.body.appendChild(form);
-        form.submit();
+        setTimeout(() => {
+            form.submit();
+
+        }, 300);
     }
 
     document.getElementById("mensagem-ok").style.display = "block";
