@@ -17,7 +17,7 @@ Portfólio profissional com foco em soluções criativas, responsivas e modernas
 | 🍽️ BellaCozinha | Site fictício de restaurante com animações, modo escuro e layout elegante. |
 | 🛍️ ClickStore | E-commerce moderno com carrossel, página de produto, carrinho e modal de login. |
 | 🧑‍🎨 Portfólio Designer Joana | Site institucional para designer com foco em identidade visual. |
-| 🏥 ConsultMed | Página de clínica com layout limpo e seções institucionais. |
+
 
 ---
 
