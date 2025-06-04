@@ -32,6 +32,6 @@ Portfólio profissional com foco em soluções criativas, responsivas e modernas
 
 ## 📬 Contato
 📧 extraordinariodesignerrodrigue@gmail.com  
-📱 [WhatsApp](https://wa.me/5548992092840)  
+📱 [WhatsApp](https://wa.me/5548991171998)  
 ---
 *Esse perfil é mantido como uma vitrine profissional de projetos front-end com código 100% próprio e foco em experiência de usuário.*
